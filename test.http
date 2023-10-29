@@ -1,0 +1,24 @@
+###
+GET http://localhost:8080/
+
+###
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+    "name": "dasdaszer",
+    "email": "BrunoMozer@gmail.com",
+    "birthDate": "2005-04-23",
+    "number": 1239138
+}
+
+###
+PUT http://localhost:8080/1
+Content-Type: application/json
+
+{
+    "name": "utestegyug",
+    "email": "BrunoMozer@gmail.com",
+    "birthDate": "2005-04-23",
+    "number": 1239138
+}
