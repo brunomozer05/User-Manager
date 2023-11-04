@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const Global = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 
   * {
     margin: 0;
@@ -13,8 +13,8 @@ const Global = createGlobalStyle`
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: #f2f2f2;
+    background-color: #06101e;
   }
 `;
 
-export default Global;
+export default GlobalStyle;
