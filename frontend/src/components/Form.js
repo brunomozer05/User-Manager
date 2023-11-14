@@ -94,7 +94,7 @@ const Form = () => {
       body: JSON.stringify({
         name: formData.name,
         email: formData.email,
-        number: Number.parseInt(formData.phone),
+        number: formData.phone,
         birthDate: formData.birth_date,
       }),
       method: "POST",

@@ -11,6 +11,7 @@ function App() {
       <Form/>
       <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT}/>
       <GlobalStyle/>
+      <Info/>
     </>
   );
 }
